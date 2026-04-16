@@ -1,0 +1,93 @@
+{
+  "timestamp": "2026-04-07T14:36:01.172411Z",
+  "url": "https://tryhackme.com/room/linuxthreatdetection2",
+  "prediction": "legitimate",
+  "score": 0.2,
+  "features": {
+    "url_length": 48,
+    "digit_count": 1,
+    "special_character_count": 5,
+    "has_ip_address": 0,
+    "subdomain_count": 0,
+    "host_length": 13,
+    "path_length": 27,
+    "query_length": 0,
+    "path_segment_count": 2,
+    "query_parameter_count": 0,
+    "has_at_symbol": 0,
+    "is_https": 1,
+    "suspicious_tld": 0,
+    "suspicious_word_count": 0,
+    "token_count": 5,
+    "digit_ratio": 0.02040816326530612
+  },
+  "feature_importances": [
+    {
+      "feature": "suspicious_word_count",
+      "importance": 0.27359177013032704
+    },
+    {
+      "feature": "is_https",
+      "importance": 0.2680488848325254
+    },
+    {
+      "feature": "url_length",
+      "importance": 0.17752685797616619
+    },
+    {
+      "feature": "special_character_count",
+      "importance": 0.10077189856266741
+    },
+    {
+      "feature": "host_length",
+      "importance": 0.08151911221868506
+    },
+    {
+      "feature": "token_count",
+      "importance": 0.07997082873602522
+    },
+    {
+      "feature": "subdomain_count",
+      "importance": 0.008797035822252962
+    },
+    {
+      "feature": "path_length",
+      "importance": 0.005859481601876726
+    },
+    {
+      "feature": "path_segment_count",
+      "importance": 0.002544104429977606
+    },
+    {
+      "feature": "digit_count",
+      "importance": 0.0010366923561630555
+    },
+    {
+      "feature": "suspicious_tld",
+      "importance": 0.0003333333333333338
+    },
+    {
+      "feature": "has_ip_address",
+      "importance": 0.0
+    },
+    {
+      "feature": "query_length",
+      "importance": 0.0
+    },
+    {
+      "feature": "query_parameter_count",
+      "importance": 0.0
+    },
+    {
+      "feature": "has_at_symbol",
+      "importance": 0.0
+    },
+    {
+      "feature": "digit_ratio",
+      "importance": 0.0
+    }
+  ],
+  "reasons": [
+    "No strong phishing indicators were detected"
+  ]
+}

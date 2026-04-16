@@ -1,0 +1,95 @@
+{
+  "timestamp": "2026-04-07T14:35:32.675082Z",
+  "url": "http://secure-login.paypal-account.verify-user.com",
+  "prediction": "phishing",
+  "score": 1.0,
+  "features": {
+    "url_length": 50,
+    "digit_count": 0,
+    "special_character_count": 8,
+    "has_ip_address": 0,
+    "subdomain_count": 2,
+    "host_length": 43,
+    "path_length": 0,
+    "query_length": 0,
+    "path_segment_count": 0,
+    "query_parameter_count": 0,
+    "has_at_symbol": 0,
+    "is_https": 0,
+    "suspicious_tld": 0,
+    "suspicious_word_count": 4,
+    "token_count": 8,
+    "digit_ratio": 0.0
+  },
+  "feature_importances": [
+    {
+      "feature": "suspicious_word_count",
+      "importance": 0.27359177013032704
+    },
+    {
+      "feature": "is_https",
+      "importance": 0.2680488848325254
+    },
+    {
+      "feature": "url_length",
+      "importance": 0.17752685797616619
+    },
+    {
+      "feature": "special_character_count",
+      "importance": 0.10077189856266741
+    },
+    {
+      "feature": "host_length",
+      "importance": 0.08151911221868506
+    },
+    {
+      "feature": "token_count",
+      "importance": 0.07997082873602522
+    },
+    {
+      "feature": "subdomain_count",
+      "importance": 0.008797035822252962
+    },
+    {
+      "feature": "path_length",
+      "importance": 0.005859481601876726
+    },
+    {
+      "feature": "path_segment_count",
+      "importance": 0.002544104429977606
+    },
+    {
+      "feature": "digit_count",
+      "importance": 0.0010366923561630555
+    },
+    {
+      "feature": "suspicious_tld",
+      "importance": 0.0003333333333333338
+    },
+    {
+      "feature": "has_ip_address",
+      "importance": 0.0
+    },
+    {
+      "feature": "query_length",
+      "importance": 0.0
+    },
+    {
+      "feature": "query_parameter_count",
+      "importance": 0.0
+    },
+    {
+      "feature": "has_at_symbol",
+      "importance": 0.0
+    },
+    {
+      "feature": "digit_ratio",
+      "importance": 0.0
+    }
+  ],
+  "reasons": [
+    "URL contains suspicious words or phrases",
+    "URL is not using HTTPS",
+    "Model confidence is high for phishing"
+  ]
+}
